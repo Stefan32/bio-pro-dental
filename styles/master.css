@@ -1,0 +1,42 @@
+/*
+variables
+*/
+:root {
+    --main-purple: #8b0f72;
+    --main-blue: #3f73a8;
+    --bg-grey: #f4f6f8;
+    --bg-grey-darker: #dddfe1;
+    --bg-grey-darkest: #cccdcf;
+    --bg-dark-grey: #58585b;
+    --font-light-grey: #cdcdcd;
+    --font-dark-grey: #606060;
+}
+
+
+
+
+
+
+
+/*
+baseline
+*/
+
+* {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+}
+
+
+
+
+
+
+
+/*
+----------------------------------------------------------------------------hero
+*/
+
+.hero-img img {
+    width: 100%;
+}
