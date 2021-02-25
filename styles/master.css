@@ -2,8 +2,9 @@
 variables
 */
 :root {
-    --main-purple: #8b0f72;
-    --main-blue: #3f73a8;
+    --main-blue: #2731a0;
+    --light-blue: #379cc1;
+
     --bg-grey: #f4f6f8;
     --bg-grey-darker: #dddfe1;
     --bg-grey-darkest: #cccdcf;
@@ -39,4 +40,99 @@ baseline
 
 .hero-img img {
     width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+-------------------------------------------------------------------------welcome
+*/
+
+.welcome-div {
+    padding: 30px;
+    background: rgb(251,251,252);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(223,223,223,1) 90%);
+}
+
+    /* For Med Screens */
+    @media only screen and (min-width: 500px) {
+        .welcome-div {
+            padding: 40px 60px 40px 40px;
+        }
+    }
+
+        /* For Large Screens */
+        @media only screen and (min-width: 800px) {
+            .welcome-div {
+                padding: 80px 100px 80px 80px;
+            }
+        }
+
+.welcome-div_content {
+    padding-left: 15px;
+    color: var(--font-dark-grey);
+    border-left: 4px solid var(--light-blue);
+}
+
+    /* For Med Screens */
+    @media only screen and (min-width: 500px) {
+        .welcome-div_content {
+            padding-left: 25px;
+        }
+    }
+
+        /* For Large Screens */
+        @media only screen and (min-width: 800px) {
+            .welcome-div_content {
+                width: 60%;
+            }
+        }
+
+.welcome-div_heading {
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+    /* For Med Screens */
+    @media only screen and (min-width: 500px) {
+        .welcome-div_heading {
+            font-size: 1.8rem;
+        }
+    }
+
+        /* For Large Screens */
+        @media only screen and (min-width: 800px) {
+            .welcome-div_heading {
+                font-size: 2rem;
+            }
+        }
+
+.welcome-div_text {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+.test-div {
+    border: 1px solid black;
 }
