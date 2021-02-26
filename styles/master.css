@@ -124,7 +124,7 @@ baseline
 
 .welcome-div_text {
     font-size: 1.1rem;
-    font-weight: lighter;
+    line-height: 1.35;
 }
 
     /* For Med Screens */
@@ -138,7 +138,6 @@ baseline
         @media only screen and (min-width: 800px) {
             .welcome-div_text {
                 font-size: 1.3rem;
-                line-height: 1.35;
             }
         }
 
@@ -157,7 +156,6 @@ baseline
 */
 
 .services-div {
-    border: 1px solid red;
     background-color: rgba(233,233,233,1);
 }
 
@@ -166,6 +164,37 @@ baseline
     font-size: 2.2rem;
     text-align: center;
     padding: 20px 0px 60px 0px;
+}
+
+.services_item {
+    box-sizing: border-box;
+}
+
+    /* For Large Screens */
+    @media only screen and (min-width: 800px) {
+        .services_item {
+            width: 50%;
+            float: left;
+        }
+    }
+
+.services_row {
+
+}
+
+    /* For Large Screens */
+    @media only screen and (min-width: 800px) {
+        .services_row {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+.services_row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .services_icon-box {
@@ -192,12 +221,26 @@ baseline
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
+
+    /* For Med Screens */
+    @media only screen and (min-width: 500px) {
+        .services_text-block {
+            max-width: 70%;
+        }
+    }
+
+        /* For Large Screens */
+        @media only screen and (min-width: 800px) {
+            .services_text-block {
+                width: 80%;
+                max-width: 450px;
+            }
+        }
 
 .services_text-block_text {
     font-size: 1.1rem;
-    font-weight: lighter;
     line-height: 1.35;
 }
 
@@ -207,4 +250,10 @@ baseline
 
 .test-div {
     border: 1px solid black;
+}
+
+.trading-hours::after {
+  content: "";
+  clear: both;
+  display: table;
 }
