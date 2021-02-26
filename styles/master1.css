@@ -5,11 +5,12 @@ variables
     --main-blue: #2731a0;
     --light-blue: #379cc1;
     --font-dark-grey: #606060;
+    --bg-dark-grey: #58585b;
 
     --bg-grey: #f4f6f8;
     --bg-grey-darker: #dddfe1;
     --bg-grey-darkest: #cccdcf;
-    --bg-dark-grey: #58585b;
+
     --font-light-grey: #cdcdcd;
 
 }
@@ -279,12 +280,87 @@ baseline
 
 
 
-.test-div {
-    border: 1px solid black;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+-------------------------------------------------------------------------contact
+*/
+
+.contact-div {
+    background: var(--bg-dark-grey);
 }
 
-.trading-hours::after {
-  content: "";
-  clear: both;
-  display: table;
+.contact_heading {
+    color: var(--font-light-grey);
+    padding: 25px 0px 50px 0px;
+    text-align: center;
 }
+
+.contact-item {
+    padding-bottom: 50px;
+}
+
+.contact-item_icon-div {
+    max-width: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.contact-item_icon-div img {
+    width: 100%;
+}
+
+.contact-item_text {
+    text-align: center;
+    color: var(--font-light-grey);
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .test-div {
+    border: 1px solid black;
+} */
