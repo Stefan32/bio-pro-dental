@@ -70,14 +70,14 @@ baseline
     /* For Med Screens */
     @media only screen and (min-width: 500px) {
         .welcome-div {
-            padding: 40px 60px 40px 40px;
+            padding: 70px 70px 40px 60px;
         }
     }
 
         /* For Large Screens */
         @media only screen and (min-width: 800px) {
             .welcome-div {
-                padding: 80px 100px 80px 120px;
+                padding: 130px 100px 100px 120px;
             }
         }
 
@@ -118,7 +118,7 @@ baseline
         /* For Large Screens */
         @media only screen and (min-width: 800px) {
             .welcome-div_heading {
-                font-size: 2rem;
+                font-size: 2.7rem;
             }
         }
 
@@ -137,7 +137,8 @@ baseline
         /* For Large Screens */
         @media only screen and (min-width: 800px) {
             .welcome-div_text {
-                font-size: 1.3rem;
+                font-size: 1.5rem;
+                line-height: 1.5;
             }
         }
 
@@ -156,6 +157,7 @@ baseline
 */
 
 .services-div {
+    padding-top: 50px;
     background-color: rgba(233,233,233,1);
 }
 
@@ -165,6 +167,20 @@ baseline
     text-align: center;
     padding: 20px 0px 60px 0px;
 }
+
+    /* For Med Screens */
+    @media only screen and (min-width: 500px) {
+        .services_heading {
+            font-size: 2.5rem;
+        }
+    }
+
+        /* For Large Screens */
+        @media only screen and (min-width: 800px) {
+            .services_heading {
+                font-size: 3.5rem;
+            }
+        }
 
 .services_item {
     box-sizing: border-box;
@@ -240,9 +256,24 @@ baseline
         }
 
 .services_text-block_text {
+    color: var(--font-dark-grey);
     font-size: 1.1rem;
     line-height: 1.35;
 }
+
+    /* For Med Screens */
+    @media only screen and (min-width: 500px) {
+        .services_text-block_text {
+            font-size: 1.2rem;
+        }
+    }
+
+        /* For Large Screens */
+        @media only screen and (min-width: 800px) {
+            .services_text-block_text {
+                font-size: 1.3rem;
+            }
+        }
 
 
 
