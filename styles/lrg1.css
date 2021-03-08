@@ -215,6 +215,7 @@ baseline
 
 .services_item {
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
     /* For Large Screens */

@@ -7,18 +7,32 @@
 
         <title>Bio-Pro Dental</title>
 
-        <link rel="stylesheet" href="styles/master1.css">
+        <link rel="stylesheet" href="styles/sml1.css">
+        <!-- <link rel="stylesheet" href="styles/med1.css">
+        <link rel="stylesheet" href="styles/lrg1.css"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
         <!-- HERO -->
         <div class="hero-div">
+            <!-- nav for large screens -->
             <ul class="nav-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
+
+            <!-- nav for small screens -->
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">About</a>
+                    <a href="#">Products</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+
             <div class="hero-img">
                 <picture>
                     <source srcset="images/photos/hero-1-big.png 990w" media="(min-width: 800px)">
@@ -101,7 +115,7 @@
                             <div class="services_icon-box">
                                 <img src="images/icons/04-orthodontics.png" alt="ORTHODONTICS">
                             </div>
-                            <h2 class="services_mini-heading">3d PRINTING</h2>
+                            <h2 class="services_mini-heading">3D PRINTING</h2>
                         </a>
                     </div>
                     <!-- _________ -->
@@ -116,5 +130,9 @@
         <!-- <div class="test-div">
             test
         </div> -->
+
+        <!-- SCRIPTS -->
+        <script type="text/javascript" src="scripts/javascript.js"></script>
+
     </body>
 </html>
