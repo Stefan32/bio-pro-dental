@@ -40,6 +40,36 @@ baseline
 ----------------------------------------------------------------------------hero
 */
 
+.hero-div {
+
+}
+
+.nav-list {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    float: left;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.nav-list a {
+    display: block;
+    text-decoration: none;
+    color: var(--main-blue);
+}
+
+.nav-list::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .hero-img img {
     width: 100%;
     display: block;
@@ -164,7 +194,7 @@ baseline
 
 .services_heading {
     color: var(--font-dark-grey);
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-align: center;
     padding: 20px 0px 60px 0px;
 }
@@ -172,14 +202,14 @@ baseline
     /* For Med Screens */
     @media only screen and (min-width: 500px) {
         .services_heading {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
     }
 
         /* For Large Screens */
         @media only screen and (min-width: 800px) {
             .services_heading {
-                font-size: 3.5rem;
+                font-size: 2.5rem;
             }
         }
 
@@ -190,21 +220,20 @@ baseline
     /* For Large Screens */
     @media only screen and (min-width: 800px) {
         .services_item {
-            width: 50%;
+            /* width: 50%; */
             float: left;
         }
     }
 
 .services_row {
-
+    padding: 0 300px;
 }
 
     /* For Large Screens */
     @media only screen and (min-width: 800px) {
         .services_row {
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
+            padding-top: 25px;
+            padding-bottom: 75px;
         }
     }
 
@@ -212,6 +241,19 @@ baseline
   content: "";
   clear: both;
   display: table;
+}
+
+.services_item {
+    width: 16.6%;
+}
+
+.services_item a {
+    text-decoration: none;
+}
+
+.services_item:hover .services_icon-box img, .services_item:hover .services_mini-heading {
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, .3));
 }
 
 .services_icon-box {
@@ -226,12 +268,17 @@ baseline
     display: block;
 }
 
+/* .services_icon-box img:hover {
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, .3));
+} */
+
 .services_mini-heading {
     font-family: arial, sans-serif;
     font-size: 1rem;
     text-align: center;
     color: var(--main-blue);
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .services_text-block {
@@ -335,6 +382,34 @@ baseline
     color: var(--font-light-grey);
     font-size: 1.5rem;
     letter-spacing: .1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+-------------------------------------------------------------------------contact
+*/
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: linear-gradient(270deg, rgba(39, 49, 160,1) 10%, rgba(55, 156, 193,1) 90%);
 }
 
 
