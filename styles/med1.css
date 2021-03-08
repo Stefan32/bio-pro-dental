@@ -1,79 +1,22 @@
-/*
-variables
-*/
-:root {
-    --main-blue: #2731a0;
-    --light-blue: #379cc1;
-    --font-dark-grey: #606060;
-    --bg-dark-grey: #58585b;
-
-    --bg-grey: #f4f6f8;
-    --bg-grey-darker: #dddfe1;
-    --bg-grey-darkest: #cccdcf;
-
-    --font-light-grey: #cdcdcd;
-
-}
-
-
-
+/* For Med Screens */
+@media only screen and (min-width: 500px) {
 
 
 
 
 /*
-baseline
+---------------------------------------------------------------------mobile menu
 */
 
-* {
-    font-family: Calibri, sans-serif;
-    margin: 0;
-}
 
-
-
-
-
+/*
+-----------------------------------------------------------------------main menu
+*/
 
 
 /*
 ----------------------------------------------------------------------------hero
 */
-
-.hero-div {
-
-}
-
-.nav-list {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    list-style: none;
-    padding: 0;
-}
-
-.nav-list li {
-    float: left;
-    font-size: 1.5rem;
-    padding: 20px;
-}
-
-.nav-list a {
-    display: block;
-    text-decoration: none;
-    color: var(--main-blue);
-}
-
-.nav-list::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.hero-img img {
-    width: 100%;
-    display: block;
-}
 
 
 
@@ -91,87 +34,21 @@ baseline
 /*
 -------------------------------------------------------------------------welcome
 */
-
 .welcome-div {
-    padding: 40px 50px 80px 40px;
-    background: rgb(251,251,252);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(233,233,233,1) 90%);
+    padding: 70px 70px 40px 60px;
 }
-
-    /* For Med Screens */
-    @media only screen and (min-width: 500px) {
-        .welcome-div {
-            padding: 70px 70px 40px 60px;
-        }
-    }
-
-        /* For Large Screens */
-        @media only screen and (min-width: 800px) {
-            .welcome-div {
-                padding: 130px 100px 100px 120px;
-            }
-        }
 
 .welcome-div_content {
-    padding-left: 15px;
-    color: var(--font-dark-grey);
-    border-left: 4px solid var(--light-blue);
+    padding-left: 25px;
 }
-
-    /* For Med Screens */
-    @media only screen and (min-width: 500px) {
-        .welcome-div_content {
-            padding-left: 25px;
-        }
-    }
-
-        /* For Large Screens */
-        @media only screen and (min-width: 800px) {
-            .welcome-div_content {
-                width: 60%;
-            }
-        }
 
 .welcome-div_heading {
-    font-family: arial, sans-serif;
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding-bottom: 10px;
+    font-size: 1.8rem;
 }
-
-    /* For Med Screens */
-    @media only screen and (min-width: 500px) {
-        .welcome-div_heading {
-            font-size: 1.8rem;
-        }
-    }
-
-        /* For Large Screens */
-        @media only screen and (min-width: 800px) {
-            .welcome-div_heading {
-                font-size: 2.7rem;
-            }
-        }
 
 .welcome-div_text {
-    font-size: 1.1rem;
-    line-height: 1.35;
+    font-size: 1.2rem;
 }
-
-    /* For Med Screens */
-    @media only screen and (min-width: 500px) {
-        .welcome-div_text {
-            font-size: 1.2rem;
-        }
-    }
-
-        /* For Large Screens */
-        @media only screen and (min-width: 800px) {
-            .welcome-div_text {
-                font-size: 1.5rem;
-                line-height: 1.5;
-            }
-        }
 
 
 
@@ -186,143 +63,17 @@ baseline
 /*
 ------------------------------------------------------------------------services
 */
-
-.services-div {
-    padding-top: 50px;
-    background-color: rgba(233,233,233,1);
-}
-
 .services_heading {
-    color: var(--font-dark-grey);
     font-size: 2rem;
-    text-align: center;
-    padding: 20px 0px 60px 0px;
-}
-
-    /* For Med Screens */
-    @media only screen and (min-width: 500px) {
-        .services_heading {
-            font-size: 2rem;
-        }
-    }
-
-        /* For Large Screens */
-        @media only screen and (min-width: 800px) {
-            .services_heading {
-                font-size: 2.5rem;
-            }
-        }
-
-.services_item {
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-
-    /* For Large Screens */
-    @media only screen and (min-width: 800px) {
-        .services_item {
-            /* width: 50%; */
-            float: left;
-        }
-    }
-
-.services_row {
-    padding: 0 300px;
-}
-
-    /* For Large Screens */
-    @media only screen and (min-width: 800px) {
-        .services_row {
-            padding-top: 25px;
-            padding-bottom: 75px;
-        }
-    }
-
-.services_row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.services_item {
-    width: 16.6%;
-}
-
-.services_item a {
-    text-decoration: none;
-}
-
-.services_item:hover .services_icon-box img, .services_item:hover .services_mini-heading {
-    cursor: pointer;
-    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, .3));
-}
-
-.services_icon-box {
-    max-width: 75px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
-}
-
-.services_icon-box img {
-    width: 100%;
-    display: block;
-}
-
-/* .services_icon-box img:hover {
-    cursor: pointer;
-    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, .3));
-} */
-
-.services_mini-heading {
-    font-family: arial, sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    color: var(--main-blue);
-    padding-bottom: 50px;
 }
 
 .services_text-block {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 80px;
+    max-width: 70%;
 }
-
-    /* For Med Screens */
-    @media only screen and (min-width: 500px) {
-        .services_text-block {
-            max-width: 70%;
-        }
-    }
-
-        /* For Large Screens */
-        @media only screen and (min-width: 800px) {
-            .services_text-block {
-                width: 80%;
-                max-width: 450px;
-            }
-        }
 
 .services_text-block_text {
-    color: var(--font-dark-grey);
-    font-size: 1.1rem;
-    line-height: 1.35;
+    font-size: 1.2rem;
 }
-
-    /* For Med Screens */
-    @media only screen and (min-width: 500px) {
-        .services_text-block_text {
-            font-size: 1.2rem;
-        }
-    }
-
-        /* For Large Screens */
-        @media only screen and (min-width: 800px) {
-            .services_text-block_text {
-                font-size: 1.3rem;
-            }
-        }
 
 
 
@@ -353,41 +104,6 @@ baseline
 -------------------------------------------------------------------------contact
 */
 
-.contact-div {
-    background: var(--bg-dark-grey);
-}
-
-.contact_heading {
-    color: var(--font-light-grey);
-    padding: 25px 0px 50px 0px;
-    text-align: center;
-}
-
-.contact-item {
-    padding-bottom: 50px;
-}
-
-.contact-item_icon-div {
-    max-width: 37px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-}
-
-.contact-item_icon-div img {
-    width: 100%;
-}
-
-.contact-item_text {
-    text-align: center;
-    color: var(--font-light-grey);
-    font-size: 1.5rem;
-    letter-spacing: .1rem;
-}
-
-
-
-
 
 
 
@@ -406,37 +122,37 @@ baseline
 /*
 -------------------------------------------------------------------------contact
 */
-footer {
-    text-align: center;
-    color: white;
-    padding: 20px;
-    background: linear-gradient(270deg, rgba(39, 49, 160,1) 10%, rgba(55, 156, 193,1) 90%);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .test-div {
-    border: 1px solid black;
-} */

@@ -1,42 +1,4 @@
 /*
-variables
-*/
-:root {
-    --main-blue: #2731a0;
-    --light-blue: #379cc1;
-    --font-dark-grey: #606060;
-    --bg-dark-grey: #58585b;
-
-    --bg-grey: #f4f6f8;
-    --bg-grey-darker: #dddfe1;
-    --bg-grey-darkest: #cccdcf;
-
-    --font-light-grey: #cdcdcd;
-
-}
-
-
-
-
-
-
-
-/*
-baseline
-*/
-
-* {
-    font-family: Calibri, sans-serif;
-    margin: 0;
-}
-
-
-
-
-
-
-
-/*
 ----------------------------------------------------------------------------hero
 */
 
@@ -104,24 +66,6 @@ baseline
 .nav-list {
     display: none;
     visibility: hidden;
-}
-
-.nav-list li {
-    float: left;
-    font-size: 1.5rem;
-    padding: 20px;
-}
-
-.nav-list a {
-    display: block;
-    text-decoration: none;
-    color: var(--main-blue);
-}
-
-.nav-list::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .hero-img img {

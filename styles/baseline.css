@@ -1,0 +1,31 @@
+/*
+variables
+*/
+:root {
+    --main-blue: #2731a0;
+    --light-blue: #379cc1;
+    --font-dark-grey: #606060;
+    --bg-dark-grey: #58585b;
+
+    --bg-grey: #f4f6f8;
+    --bg-grey-darker: #dddfe1;
+    --bg-grey-darkest: #cccdcf;
+
+    --font-light-grey: #cdcdcd;
+
+}
+
+
+
+
+
+
+
+/*
+baseline
+*/
+
+* {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+}
