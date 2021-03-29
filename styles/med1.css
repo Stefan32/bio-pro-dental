@@ -30,7 +30,6 @@
 
 
 
-
 /*
 -------------------------------------------------------------------------welcome
 */
@@ -60,6 +59,33 @@
 
 
 
+
+
+
+
+
+
+
+
+
+/*
+-------------------------------------------------------------------------Heading
+*/
+.product-div {
+    padding: 40px 0px 20px 0px;
+}
+
+.contact-div-heading {
+    padding: 40px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+
 /*
 ------------------------------------------------------------------------services
 */
@@ -75,10 +101,63 @@
     font-size: 1.2rem;
 }
 
+.services_mini-heading {
+    padding-bottom: 70px;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+------------------------------------------------------------------------Products
+*/
+.products-section {
+    max-width: 70%;
+}
+
+.products-item {
+    margin-bottom: 100px;
+}
+
+.product-item-img {
+    width: 100%;
+    max-width: 350px;
+    max-height: 230px;
+}
+
+.products-item-text {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -103,7 +182,18 @@
 /*
 -------------------------------------------------------------------------contact
 */
+.contact-form-top-text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
 
+.contact-form {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
