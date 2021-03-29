@@ -17,7 +17,11 @@
 
     width: 100%;
     padding: 12px;
-    background: linear-gradient(270deg, rgba(39, 49, 160,1) 10%, rgba(55, 156, 193,1) 90%);
+    /* blue gradient */
+    /* background: linear-gradient(270deg, rgba(39, 49, 160,1) 10%, rgba(55, 156, 193,1) 90%); */
+    /* grey gradient */
+    /* background: linear-gradient(270deg, rgba(220, 220, 220,1) 10%, rgba(120, 120, 120,1) 90%); */
+    background-color: rgb(60, 60, 60);
 }
 
 /* Dropdown button on hover & focus */
